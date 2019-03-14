@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			ul {
+				background: green;
+			}
+			ul li{
+				background: green;
+				list-style: none;
+				float: left;
+				width: 60px;
+				margin-left: 1px;
+				text-align: center;
+				height: 40px;
+				line-height: 40px;
+			}
+			body{
+				background: greenyellow;
+				color: #fff;
+			}
+			button{
+				width: 20px;
+				height: 20px;
+				border: 0;
+			}
+			#q{
+				background: red;
+			}
+			#w{
+				background: green;
+			}
+			#e{
+				background: black;
+			}
+		</style>
+	</head>
+	<body>
+		<button class="btn" id="q"></button>
+		<button class="btn" id="w"></button>
+		<button class="btn" id="e"></button>
+		<ul>
+			<li>新闻</li>
+			<li>娱乐</li>
+			<li>体育</li>
+			<li>电影</li>
+			<li>音乐</li>
+			<li>旅游</li>
+		</ul>
+	</body>
+	<script type="text/javascript">
+		btn=document.getElementsByTagName("button")
+		body=document.getElementsByTagName("body")[0]
+		btn[0].onclick=function(){
+			btn[0].style.width="10px"
+			btn[0].style.height="20px"	
+			btn[0].style.background="#fff"
+			btn[0].style.border="5px solid red"
+			body.style.background="pink"
+		}
+		btn[1].onclick=function(){
+			btn[1].style.width="10px"
+			btn[1].style.height="20px"	
+			btn[1].style.background="#fff"
+			btn[1].style.border="5px solid red"
+			body.style.background="bisque"
+		}
+		btn[2].onclick=function(){
+			btn[2].style.width="10px"
+			btn[2].style.height="20px"	
+			btn[2].style.background="#fff"
+			btn[2].style.border="5px solid red"
+			body.style.background="#ccc"
+		}
+		
+	</script>
+</html>
