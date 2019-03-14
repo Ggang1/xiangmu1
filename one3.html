@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" id="tex1"/>
+		<input type="text" id="tex2"/>
+		<button>传参</button>
+	</body>
+	<script type="text/javascript">
+		a=document.getElementById("tex1")
+		b=document.getElementById("tex2")
+		document.getElementsByTagName("button")[0].onclick=function(){
+			alert(a.value)
+			alert(b.value)
+		}
+		
+	</script>
+</html>
