@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 200px;
+				background: black;
+				color: #fff;
+				border: 20px solid #000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			鼠标移入改变样式，移出恢复
+		</div>
+	</body>
+	<script type="text/javascript">
+		box=document.getElementById("box")
+		box.onmouseover=function(){
+			box.style.background="#ccc"
+			box.style.border="20px solid red"
+			 
+		}
+		box.onmouseout=function(){
+			box.style.background="#000"
+			box.style.border="20px solid #000"
+		}
+	</script>
+</html>

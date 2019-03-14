@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 100px;
+				height: 100px;
+				background: black;
+				margin: 10px;
+				float: left;
+			}
+			 
+		</style>
+	</head>
+	<body>
+		<button >点击</button>
+		<div></div>
+		<div></div>
+		<div></div>
+	</body>
+	<script type="text/javascript">
+		d=document.getElementsByTagName("div")
+		console.log(d.length)
+		document.getElementsByTagName("button")[0].onclick=function(){
+			console.log(1)
+			for(i=0;i<d.length;i++){
+				d[i].style.background="red"
+			}
+		}
+	</script>
+</html>
