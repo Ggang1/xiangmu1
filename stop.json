@@ -1,0 +1,6 @@
+[
+	{"name":"华为","price":"1565","sl":"0","qj":"0","check":"checked"},
+    { "name": "苹果", "price": "8565", "sl": "0", "qj": "0", "check": "checked"},
+    { "name": "vivo", "price": "4565", "sl": "0", "qj": "0", "check": "checked"},
+    { "name": "pop", "price": "2565", "sl": "0", "qj": "0", "check": "checked"}
+]
